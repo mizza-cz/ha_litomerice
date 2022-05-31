@@ -1,0 +1,32 @@
+.footer{
+   text-align: center;
+   position: relative;
+   z-index: 20;
+   margin-top: -74px;
+   @include media-breakpoint-down(lg){
+      margin-top: -32px;
+   }
+   &__img{
+      position: relative;
+      z-index: 99;
+      height: 648px;
+      @include media-breakpoint-down(xl){
+         height: auto;
+         margin-bottom: 24px;
+      }
+      img{
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+         position: relative;
+      }
+   }
+  
+   p{
+      padding-top: 54px;
+      border-top: solid 1px rgba(0, 0, 0, 0.19);
+      display: block;
+      padding-bottom: 40px;
+      margin-top: -40px;
+   }
+}

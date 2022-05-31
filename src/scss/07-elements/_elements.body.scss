@@ -1,0 +1,28 @@
+body {
+  position: relative;
+  font-family: revolution-gothic, sans-serif;
+  color: var(--color-primary);
+  &::after,
+  &::before{
+   content: '';
+   position: absolute;
+   height: 50%;
+   width: 100%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   left: 0;
+   right: 0;
+   margin: 0 auto;
+  }
+  &::before{
+     background-image: url('../images/bg-top.jpg');
+     top: -30px;
+     background-position: top center;
+  }
+  &::after{
+   background-image: url('../images/bg-bottom.jpg');
+   top: 48%;
+   height: 52%;
+  }
+
+}

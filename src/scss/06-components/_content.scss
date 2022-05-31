@@ -1,0 +1,72 @@
+.o-content {
+  &::after {
+    display: table;
+    clear: both;
+    content: "";
+  }
+  > :first-child {
+    margin-top: 0;
+  }
+  > :last-child {
+    margin-bottom: 0;
+  }
+  a {
+    text-decoration: underline;
+    text-decoration-color: var(--color-primary);
+    transition: text-decoration-color 0.3s;
+    &:hover {
+      text-decoration-color: transparent;
+    }
+  }
+  h1 {
+    margin-top: 40px;
+    margin-bottom: 24px;
+  }
+}
+p{
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  line-height: 1.43;
+}
+.h1,
+.o-content h1 {
+   font-size: 60px;
+   font-weight: 800;
+   line-height: normal;
+  @include media-breakpoint-down(md) {
+    font-size: 40px;
+    line-height: normal;
+  }
+}
+.h2,
+.o-content h2 {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: normal;
+  @include media-breakpoint-down(md) {
+    font-size: 26px;
+    line-height: normal;
+
+  }
+}
+.h3,
+.o-content h3 {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+  @include media-breakpoint-down(md) {
+    font-size: 22px;
+    line-height: normal;
+  }
+}
+.h4,
+.o-content h4 {
+  font-size: 21px;
+  font-weight: 800;
+  line-height: normal;
+  @include media-breakpoint-down(md) {
+    font-size: 16px;
+    line-height: normal;
+  }
+}

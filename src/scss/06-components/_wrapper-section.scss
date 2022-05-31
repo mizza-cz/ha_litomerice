@@ -1,0 +1,15 @@
+.wrapper-section{
+   background: var(--color-light);
+   padding-left: 62px;
+   padding-right: 62px;
+   position: relative;
+   z-index: 5;
+   padding-bottom: 74px;
+   @include media-breakpoint-down(md){
+      padding-left: 16px;
+      padding-right: 16px;
+   }
+   @include media-breakpoint-down(lg){
+      padding-bottom: 32px;
+   }
+}

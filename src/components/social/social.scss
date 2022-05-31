@@ -1,0 +1,20 @@
+.social {
+   display: flex;
+   li+li{
+   margin-left: 4px;
+   }
+   &__link {
+   
+     display: block;
+     transition: all 0.3s;
+     border-radius: 50%;
+     svg{
+       width: 40px;
+       height: 40px;
+       display: block;
+     }
+     &:hover {
+       transform: scale(1.1);
+     }
+   }
+ }
