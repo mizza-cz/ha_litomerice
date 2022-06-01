@@ -1,6 +1,7 @@
 tablesWrap();
 iframesWrap();
 
+
 // TABLE (wysiwyg editor) responsive
 function tablesWrap() {
 	var contentTables = document.querySelectorAll(".content table"),
@@ -37,3 +38,4 @@ function iframesWrap() {
 		iframeWrap.appendChild(contentIframes[i]);
 	}
 }
+ 
