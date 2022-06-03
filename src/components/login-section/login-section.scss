@@ -1,7 +1,7 @@
 .c-login{
    &-section{
       padding-top: 64px;
-      margin-bottom: 80px;
+      margin-bottom: 140px;
    }
 }
 .form__label{
@@ -9,6 +9,7 @@
    font-weight: 800;
    margin-bottom: 4px;
    display: block;
+   text-transform: uppercase;
 }
 .form__btn{
    display: block;
@@ -81,6 +82,11 @@
      background-image: url('../images/ico/envelope-solid.svg');
    }
  }
+ .input-name {
+  &::before {
+    background-image: url('../images/ico/user.svg');
+  }
+}
 
  .remember {
    position: relative;

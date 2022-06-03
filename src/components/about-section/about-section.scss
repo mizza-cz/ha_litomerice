@@ -1,12 +1,10 @@
 .c-about{
    &-section{
-      padding-top: 64px;
       margin-bottom: 80px;
       @include media-breakpoint-down(md){
          margin-bottom: 20px;
       }
       .c-newsboard__kalendar{
-         margin-top: 36px;
          height: auto;
          margin-bottom: 64px;
          @include media-breakpoint-down(md){

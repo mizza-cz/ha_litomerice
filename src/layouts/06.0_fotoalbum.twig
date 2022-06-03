@@ -1,0 +1,12 @@
+{% extends "@components/base/base.twig" %}
+
+{% set title = "06.0_photoalbum" %}
+
+{% block main %}
+   <div class="container">
+      <div class="wrapper-section">
+         {% include "@components/photoalbum-section/photoalbum-section.twig" %}
+         {% include "@components/partners-section/partners-section.twig" %}
+      </div>
+   </div>
+{% endblock %}

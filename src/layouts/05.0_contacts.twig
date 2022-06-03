@@ -1,0 +1,12 @@
+{% extends "@components/base/base.twig" %}
+
+{% set title = "05.0_contacts" %}
+
+{% block main %}
+   <div class="container">
+      <div class="wrapper-section">
+         {% include "@components/contacts-section/contacts-section.twig" %}
+         {% include "@components/partners-section/partners-section.twig" %}
+      </div>
+   </div>
+{% endblock %}
