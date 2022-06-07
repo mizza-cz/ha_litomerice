@@ -5,8 +5,10 @@
 {% block main %}
    <div class="container">
       <div class="wrapper-section">
-         {% include "@components/photoalbum-section/photoalbum-section.twig" %}
-         {% include "@components/partners-section/partners-section.twig" %}
+         <div class="d-flex justify-content-between flex-wrap">
+            {% include "@components/photoalbum-section/photoalbum-section.twig" %}
+            {% include "@components/aside/aside.twig" %}
+         </div>
       </div>
    </div>
 {% endblock %}

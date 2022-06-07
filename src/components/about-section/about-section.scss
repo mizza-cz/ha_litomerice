@@ -4,12 +4,5 @@
       @include media-breakpoint-down(md){
          margin-bottom: 20px;
       }
-      .c-newsboard__kalendar{
-         height: auto;
-         margin-bottom: 64px;
-         @include media-breakpoint-down(md){
-            margin-bottom: 20px;
-         }
-      }
    }
 }

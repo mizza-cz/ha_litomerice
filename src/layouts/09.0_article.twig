@@ -6,7 +6,10 @@
 {% include "@components/topstory-section/topstory-section.twig" %}
    <div class="container">
       <div class="wrapper-section">
-         {% include "@components/article-section/article-section.twig" %}
+            <div class="d-flex justify-content-between flex-wrap">
+               {% include "@components/article-section/article-section.twig" %}
+               {% include "@components/aside/aside.twig" %}
+            </div>
          {% include "@components/partners-section/partners-section.twig" %}
       </div>
    </div>

@@ -10,6 +10,38 @@
   > :last-child {
     margin-bottom: 0;
   }
+  table {
+    font-size: 16px;
+    line-height: 18px;
+    margin: 0;
+    border-spacing: 0;
+  }
+  tr:last-child td {
+    border-bottom: none;
+  }
+  th,
+  td {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  th {
+    text-align: left;
+    background-color: var(--color-orange);
+    color: var(--color-light);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    padding-top: 8px;
+  }
+  td + td {
+    border-left: 1px solid var(--color-gray);
+  }
+  td {
+    border-bottom: 1px solid var(--color-gray);
+    padding-bottom: 16px;
+    padding-top: 16px;
+  }
   a {
     text-decoration: underline;
     text-decoration-color: var(--color-primary);
@@ -19,6 +51,7 @@
     }
   }
   p{
+    margin-top: 24px;
     margin-bottom: 24px;
     strong{
       color: var(--color-orange);

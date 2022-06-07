@@ -21,7 +21,6 @@
     text-decoration: underline;
     text-decoration-color: transparent;
     transition: all .3s;
-    
      &:hover{
        text-decoration-color: var(--color-light);
      }
@@ -111,7 +110,6 @@
       width: 100%;
       margin-bottom: 24px;
     }
-   
   }
   &-collapse {
     display: flex;
