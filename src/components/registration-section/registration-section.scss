@@ -1,3 +1,11 @@
 .c-registration-section{
    margin-bottom: 140px;
+   .h1{
+      color: var(--color-orange);
+   }
+   .form__input{
+      input{
+         padding-left: 16px;
+      }
+   }
 }
